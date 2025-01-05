@@ -1504,7 +1504,7 @@ section.lazy-placeholder:after {
 .cid-uyWTBzPhH7 .mbr-text,
 .cid-uyWTBzPhH7 .mbr-section-btn,
 .cid-uyWTBzPhH7 .content {
-  color: #ff6300;
+  color: #ffffff;
   text-align: center;
 }
 .cid-uyWTBzPhH7 DIV {
@@ -2476,6 +2476,20 @@ section.lazy-placeholder:after {
   text-align: center;
 }
 .cid-uyXqmBtpde H3 {
+  color: #ffffff;
+}
+.cid-uz1eFw19xF {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #030525;
+}
+.cid-uz1eFw19xF .line {
+  background-color: #ff6300;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-uz1eFw19xF .mbr-text {
   color: #ffffff;
 }
 .cid-uyXzosfOvm {

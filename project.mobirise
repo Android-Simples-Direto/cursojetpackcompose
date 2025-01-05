@@ -47,7 +47,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 46,
+    "uniqCompNum": 47,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
     "mcSmartCart": {
@@ -563,7 +563,7 @@
               "text-align": "center"
             },
             ".mbr-text, .mbr-section-btn, .content": {
-              "color": "#ff6300",
+              "color": "#ffffff",
               "text-align": "center"
             },
             "DIV": {
@@ -1784,6 +1784,32 @@
           "_customHTML": "<section class=\"features4 petsm4_features4 popup-btn-cards\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mbr-popup-btns\">\n\n\t<mbr-parameters>\n\t\t\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n\t\t<select name=\"cards\" title=\"Cards\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t</select>\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Main Title\" name=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Main Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Subtitle\" name=\"showText\">\n\t\t<header>Background</header>\n\t\t<input type=\"color\" title=\"Card Hover\" name=\"cardColor\" value=\"#030525\">\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#030525\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\t\t\n\t</mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"col-lg-8 col-md-8 pb-4\" mbr-if=\"showTitle || showSubtitle || showButtons\">\n\t\t\t\t<h4 class=\"align-left mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Além do Projeto de Café, nosso curso oferece um bônus exclusivo com mais três projetos desenvolvidos no Android Studio utilizando Jetpack Compose. Você terá a oportunidade de explorar essa moderna biblioteca de UI do Android, criando aplicativos com interfaces intuitivas e performáticas.</h4>\n\t\t\t\t<h2 class=\"align-left mbr-bold mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">Bônus</h2>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-lg-4 col-md-4 btn-col pb-4\" mbr-if=\"showTitle || showSubtitle || showButtons\">\n\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://pay.cakto.com.br/4UPMLrG\" data-app-placeholder=\"Type Text\" target=\"_blank\">Acessar Agora!<br></a></div>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-lg-4 col-md-6\" mbr-if=\"cards > 0\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<a href=\"https://pay.cakto.com.br/4UPMLrG\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bnus-01-680x383.png\" alt=\"Canal Simples e Direto\" title></a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<p class=\"mbr-text align-center mbr-semibold mbr-white mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\">ACTIVITIES</p>\n\t\t\t\t\t\t<h3 class=\"card-title align-center mbr-bold mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-5\">\n\t\t\t\t\t\t\t<div>Bônus</div>\n\t\t\t\t\t\t</h3>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-lg-4 col-md-6\" mbr-if=\"cards > 1\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<a href=\"https://pay.cakto.com.br/4UPMLrG\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bnus-02-680x383.png\" alt=\"Canal Simples e Direto\" title></a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<p class=\"mbr-text align-center mbr-semibold mbr-white mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\tACTIVITIES</p>\n\t\t\t\t\t\t<h3 class=\"card-title align-center mbr-bold mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-5\">\n\t\t\t\t\t\t\tBônus</h3>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-lg-4 col-md-6\" mbr-if=\"cards > 2\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<a href=\"https://pay.cakto.com.br/4UPMLrG\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bnus-03-680x383.png\" alt=\"Canal Simples e Direto\" title></a>\n\t\t\t\t\t<div class=\"wrapper\">\n\t\t\t\t\t\t<p class=\"mbr-text align-center mbr-semibold mbr-white mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\">ACTIVITIES</p>\n\t\t\t\t\t\t<h3 class=\"card-title align-center mbr-bold mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-5\">Bônus\n\t\t\t\t\t\t</h3>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "uyXqmBtpde",
           "_anchor": "features4-t",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "content6",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content6\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        \n        <input type=\"color\" name=\"lineColor\" title=\"Color\" value=\"#ff6300\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#030525\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <hr class=\"line\">\n                <p class=\"mbr-text align-center mbr-fonts-style my-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Prepare-se para uma surpresa incrível no final do curso! Este bônus exclusivo é tão valioso que, por si só, já vale a pena adquirir o curso. Imagine ter acesso a conteúdos e recursos adicionais que irão elevar suas habilidades a um novo patamar.&nbsp; O bônus surpresa oferece conhecimentos e ferramentas que você não encontrará em outros lugares.&nbsp;Aproveite enquanto o curso ainda está acessível e garanta um retorno significativo para sua carreira.</b><br></p>\n                <hr class=\"line\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content6-1a",
+          "_isUserblock": true,
+          "_cid": "uz1eFw19xF",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
